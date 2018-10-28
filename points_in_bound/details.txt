@@ -1,0 +1,15 @@
+Details involve:
+
+-need to send a bunch of x y coordinates to subscriber, then
+determine which points are inside the bounding box created.
+
+-in order to create the box, need to first get 4 coordinates. easiest way to do is it generate random point, start from there,
+
+	-add or subtract a random number from y coordinate to get top left
+
+	- +/- from x to get the bottom right
+
+	- +/- from x and yo get the diagonal point of the bounding box
+
+-most likely create the bounidng box at the listener node
+
